@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>列表</title>
+</head>
+<body>
+    <!--无序列表  disc实体圆 circle空心圆 square方块的实体-->
+    <ul type="square">
+        <li>苹果</li> <!--列表项-->
+        <li>橘子</li>
+        <li>香蕉</li>
+        <li>菠萝</li>
+    </ul>
+
+    <!--有序列表 A I a i 从10开始-->
+    <ol type="i" start="10">
+        <li>苹果</li>
+        <li>橘子</li>
+        <li>香蕉</li>
+        <li>菠萝</li>
+    </ol>
+
+    <ul>  <!--无序列表嵌套-->
+        <li>宠物</li>
+            <ul>
+                <li>猫</li>
+                <li>狗</li>
+            </ul>
+        <li>人类</li>
+            <ul>
+                <li>老人</li>
+                <li>小孩</li>
+            </ul>
+        <li>植物</li>
+        <ul>
+            <li>花</li>
+            <li>草</li>
+        </ul>
+    </ul>
+
+    <ol>  <!--有序列表嵌套-->
+        <li>宠物</li>
+        <ul>
+            <li>猫</li>
+            <li>狗</li>
+        </ul>
+        <li>人类</li>
+        <ul>
+            <li>老人</li>
+            <li>小孩</li>
+        </ul>
+        <li>植物</li>
+        <ol>
+            <li>花</li>
+            <li>草</li>
+        </ol>
+    </ol>
+
+    <!--自定义列表-->
+    <dl>
+        <dt>helloword</dt>
+        <dd>每一门新的语言都会打印一个Hello Word</dd> <!--描述-->
+        <dt>helloword</dt>
+        <dd>每一门新的语言都会打印一个Hello Word</dd>
+        <dt>helloword</dt>
+        <dd>每一门新的语言都会打印一个Hello Word</dd>
+    </dl>
+
+</body>
+</html>
